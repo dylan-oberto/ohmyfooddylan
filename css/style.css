@@ -1,0 +1,273 @@
+/*header*/
+.debug{
+    border: 2px solid black;
+}
+.logo{
+    width: 100%;
+    height: 80px;
+}
+
+.logo1{
+    width: 50%;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.paris{
+    background-color: #eaeaea;
+    width: 100%;
+    height: 50px;
+    box-shadow: inset 0px 3.5px 0px 0px #cfcfcf;
+}
+.paris1{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+.gps{
+    padding-right: 15px;
+}
+
+/*header*/
+
+/*RSV*/
+.rsv{
+    height: 260px;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+.explorer h2 {
+    font-size: 28px;
+    font-family: Roboto;
+}
+
+.explorer p{
+    font-family: Roboto;
+    color: #4d4d4d;
+}
+
+.button1{
+    padding-top: 20px;
+}
+
+.button{
+   width: 220px;
+   height: 55px;
+   border: solid 3px #f6f6f6; 
+   border-radius:30px 30px 30px 30px;
+   background: rgb(235,114,218);
+   background: linear-gradient( rgba(235,114,218,1) 0%, rgba(176,95,219,1) 100%);
+   color: white; 
+   font-size: 18px;
+}
+
+.button {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+button:hover {
+    transform: scale(1.15);
+}  
+/*RSV*/
+
+/*fonctionement*/
+.fonctionement{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.onglet:hover{
+    background-color: #f5edff;
+    
+}
+.texte{
+    color: black;
+    padding-left: 55px;
+}
+.onglet{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: solid 2px #f6f6f6;
+    border-radius: 25px 25px 25px 25px ;
+    background-color: #f6f6f6;
+}
+.onglet p{
+    margin: -15px;
+    font-family: Roboto;
+}
+.legende{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.nombre{
+    width: 6%;
+    height: 20px;
+    background-color: #9356DC ;
+    border: solid 1px #9356DC;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    padding:5px;
+}
+
+.fa-solid{
+    color: #7e7e7e;
+}
+
+/*fonctionement*/
+
+/*Cartes*/
+
+.sectioncarte h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.sectioncarte{
+    width: 100%;
+    height: 1450px;
+    padding-left: 20px;
+    background-color: #f6f6f6;
+}
+.carte{
+
+    width: 90%;
+    height: 290px;
+    text-align: left;
+    margin-bottom: 50px;
+    background-color: white;
+    border: solid 2px transparent;
+    border-radius: 45px 45px 45px 45px;
+}
+.img1{
+    width: 100%;
+    height: 200px;
+    padding-left: 0px;
+    border: solid 0px white;
+    border-radius: 45px 45px 0px 0px;
+}
+.carte p {
+    padding-left: 10px;
+    font-family: Roboto;
+    color: black;
+}
+.lien{
+    text-decoration: none;
+}
+.carte h3{
+    padding-left: 10px;
+    font-family: Roboto;
+    color: black;
+}
+.ct1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ct2{
+    line-height: 7px;
+}
+
+.fa-regular{
+    position: relative;
+    z-index: auto;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+    color: #787878;
+}
+.heart:hover{
+    background: linear-gradient( rgba(235,114,218,1) 0%, rgba(176,95,219,1) 100%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+.heart{
+    z-index: 1;
+    position: absolute;
+    font-size: 31px;
+    padding-top: 20px;
+    margin-left: 373.5px;
+    color: transparent;
+    transition-property: transform;
+    transition-duration: 1000ms;
+    
+}
+.heart:hover {
+    transform: scale(1);
+} 
+
+.nv{
+    position: relative;
+    width: 20%;
+    height: 25px;
+    padding-top: 10px;
+    background-color: #99e2d0;
+    color: #008766;
+    border: solid 1px #99e2d0;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: -260px;
+    margin-left: 290px;
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+.nv:hover {
+    transform: scale(1.15);
+    
+}  
+
+/*Cartes*/
+
+/*footer*/
+.footer{
+    font-family: Roboto;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer .i1{
+    color: white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer img{
+    color: white;
+}
+.logo2{
+    font-size: 25px;
+    color:#fff;
+    font-family: Shrikhand,"cursive";
+}
+
+/*footer*/
+
