@@ -1,4 +1,7 @@
 /*header*/
+body{
+  font-family: Roboto;
+}
 .logo{
     display: flex;
     flex-direction: row-reverse;
@@ -43,10 +46,7 @@
     padding-top: 20px;
     margin-left: 20px;
   }
-  div, p {
-    /* debug */
-     /* border: 1px solid black; */
-  }
+
   h4, p {
     margin: 0;
     padding: 0;
@@ -54,11 +54,14 @@
   .card {
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 90%;
     height: 50px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46);
+  }
+  .palette{
+    width: 90%;
   }
   .desc {
     padding: 5px;

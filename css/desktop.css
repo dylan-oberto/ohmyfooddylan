@@ -1,0 +1,90 @@
+@media screen and (min-width: 900px) {
+    body{
+        overflow-x:hidden;
+        font-family: Roboto;
+    }
+    .logo1{
+        width: 10%;
+        margin-left: 42%;
+    }
+    .paris1{
+        margin-left:3%;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .explorer{
+        margin-left: 4%;
+    }
+    .button{
+        margin-right: 72%;
+    }
+    .ftc{
+        height: 40px;
+        margin-bottom: 10px;
+        margin-left: 18.5%;
+    }
+    .fonctionement{
+        height: 200px;
+    }
+    .gridlist{
+        width: 65%;
+        display: flex;
+        flex-direction: row ;
+        margin-left:18.5%;
+    }
+
+    .rs{
+        margin-left:30% ;
+    }
+   
+    .carte{
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    .heart{
+        margin-left: 636px;
+        color: transparent;
+    }
+    .nv1{
+        margin-left: 45%;
+        padding-top: 10px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  /*page html carte*/
+
+    .logo{
+        margin-right: 35%;
+    }
+    .imgfond{
+        height: 700px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .identite{
+        width: 50%;
+        height: 1000px;
+        margin-left:25%;
+    }
+    .palette{
+        margin-left: 7%;
+    }
+    .card{
+        width: 70%;
+        margin-left: 10%;
+    }
+    .plt{
+        margin-left: 9%;
+    }
+    .button1{
+        width: 100%;
+        margin-left: 36%;
+    }
+  }
+
+
+

@@ -54,7 +54,7 @@
   .card {
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 90%;
     height: 50px;
     border-radius: 10px;
     overflow: hidden;
