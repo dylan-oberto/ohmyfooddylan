@@ -42,9 +42,9 @@
         margin-left: 30%;
     }
 
-    .heart{
-        margin-left: 636px;
-        color: transparent;
+    .fa-regular{
+        position: relative;
+        margin-left: 175px;
     }
     .nv1{
         margin-left: 45%;
