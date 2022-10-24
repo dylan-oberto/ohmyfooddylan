@@ -193,13 +193,16 @@ button:hover {
     z-index: 0;
     font-size: 30px;
     padding-top: 20px;
-    left: 25%;
+    left: 61%;
     color: black;
 }
 .heart:hover{
     background: linear-gradient( rgba(235,114,218,1) 0%, rgba(176,95,219,1) 100%);
     background-clip:text;
     -webkit-background-clip:text;
+}
+.coeur{
+    margin-right: 20px;
 }
 
 .heart{
