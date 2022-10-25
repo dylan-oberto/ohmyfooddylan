@@ -85,20 +85,43 @@
   }
   
   .material-symbols-outlined {
-    color: white;  
-    padding-left: 25px;
-    padding-top: 15px;
+    color: white; 
+    position: relative;
+    left: 25px;
+    top:10px; 
+
     
   }
   .art1:hover .material-symbols-outlined{
     transform: rotate(0deg);
   }
-  
-  .card:hover .material-symbols-outlined {
-    transform: rotateX(360deg); 
-    transition: transform 1000ms;
-    
+  .material-symbols-outlined {
+    -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes .material-symbols-outlined {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
   }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+@keyframes .material-symbols-outlined {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+
 
   .plt{
     font-family: Roboto;

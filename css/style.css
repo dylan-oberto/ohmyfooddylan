@@ -221,22 +221,17 @@ button:hover {
 .nv1{
     position: relative;
     width: 90px;
-    height: 35px;
+    height:45px;
 
     background-color: #99e2d0;
     color: #008766;
     border: solid 1px #99e2d0;
     border-radius: 5px 5px 5px 5px;
     margin-top: -260px;
-    margin-left: 250px;
+    margin-left: 220px;
     transition-property: transform;
     transition-duration: 1000ms;
 }
-.nv{
-
-}
- 
-
 /*Cartes*/
 
 /*footer*/
