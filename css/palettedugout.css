@@ -43,13 +43,22 @@
     padding-top: 20px;
     margin-left: 20px;
   }
-  div, p {
-    /* debug */
-     /* border: 1px solid black; */
-  }
+p:hover{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.card{
+  white-space: nowrap;
+}
   h4, p {
     margin: 0;
     padding: 0;
+    
+  }
+  p{
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .card {
     display: flex;
@@ -62,6 +71,8 @@
   }
   .desc {
     padding: 5px;
+    text-overflow: ellipsis;
+overflow: hidden;
   }
   .prix {
     margin-left: auto;
@@ -92,7 +103,7 @@
 
     
   }
-  .art1:hover .material-symbols-outlined{
+.art1:hover .material-symbols-outlined{
     transform: rotate(0deg);
   }
   
@@ -101,7 +112,6 @@
     transform: rotateZ(360deg); 
     transition: transform 1000ms;
 }
-
   .plt{
     font-family: Roboto;
     box-shadow: inset 0 -3px  #99e2d0;
@@ -110,7 +120,7 @@
 
 .plt1{
     padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 10px;
 }
 .material-symbols-outlined{
@@ -120,7 +130,7 @@
 
 .button1{
   padding-top: 20px;
-  padding-left: 110px;
+  padding-left: 90px;
   padding-bottom: 30px;
 }
 
@@ -182,6 +192,30 @@ button:hover {
 }
 
 /*footer*/
+  .art1 {
+		
+		animation-name: slideup;
+		animation-duration: 3s;
+		animation-timing-function: ease;
+    background-attachment: scroll;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+	}
+	@keyframes slideup {
+			
+		0% {
+			transform:rotateX(-100deg);
+			transform-origin:top;
+			opacity:0;
+		}
+		100% {
+			transform:rotateX(0deg);
+			transform-origin:top;
+			opacity:1;
+		}
+	}
 
 
 

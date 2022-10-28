@@ -90,7 +90,8 @@ button:hover {
     padding-top: 40px;
 }
 .onglet:hover{
-    background-color: #f5edff;
+    background-color: #ff79da21;
+    transform: scale(1.02);
     
 }
 .texte{
@@ -219,18 +220,24 @@ button:hover {
     transform: scale(1);
 } 
 .nv1{
-    position: relative;
-    width: 90px;
-    height:45px;
-
-    background-color: #99e2d0;
-    color: #008766;
-    border: solid 1px #99e2d0;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: -260px;
-    margin-left: 220px;
-    transition-property: transform;
-    transition-duration: 1000ms;
+    background: #a9e0d1;
+    color: #3b8468;
+    font-weight: 500;
+    padding: 0.1rem 0.7rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 110%;
+    right:10%;
+}
+.nv2{
+    background: #a9e0d1;
+    color: #3b8468;
+    font-weight: 500;
+    padding: 0.1rem 0.7rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 152%;
+    right:10%;
 }
 
 /*Cartes*/
@@ -266,17 +273,41 @@ button:hover {
 }
 
 /*footer*/
+.loader{
+    position: fixed;
+    background-color:whitesmoke;
+    inset: 0;
+    z-index: 2;
+    opacity: 0.9;
+    animation: disappear 1s;
+    animation-fill-mode: forwards;
+}
+.loader::after{
+    z-index: 0;
+}
+@keyframes disappear {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+
+
+
 
 .loader {
     position: absolute;
     width: 100%;
     height: 100%;
     background: whitesmoke;
-    display: none;
     display: flex; 
     justify-content: center;
     align-items: center;
     z-index: 10;
+    animation: 3s both 1s displayNone;
 }
 .lettre {
     color: #484848;
@@ -285,6 +316,13 @@ button:hover {
     margin-bottom: 150px;
     animation: flash 1.2s linear infinite;
 }
+
+.none
+{
+    display: none;
+    animation:  3s both 1s displayDiv;
+}
+
 @keyframes flash {
     0% {
         color: #9356dc;
@@ -297,6 +335,28 @@ button:hover {
     100% {
         color: #99e2d0;
         text-shadow: 0 0 7px transparent;
+    }
+}
+
+@keyframes displayNone {
+    from {
+        opacity: 1;
+        position: fixed;
+    }
+    to  {
+        opacity: 0;
+        left: 5000px;
+        display: none;
+    }
+}
+
+@keyframes displayDiv {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        display: flex;
     }
 }
 
