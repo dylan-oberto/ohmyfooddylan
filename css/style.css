@@ -1,4 +1,7 @@
 /*header*/
+body{
+    overflow-x: hidden; 
+}
 .debug{
     border: 2px solid black;
 }
@@ -226,7 +229,7 @@ button:hover {
     padding: 0.1rem 0.7rem;
     border-radius: 0.3rem;
     position: absolute;
-    top: 110%;
+    top: 100%;
     right:10%;
 }
 .nv2{
@@ -236,7 +239,7 @@ button:hover {
     padding: 0.1rem 0.7rem;
     border-radius: 0.3rem;
     position: absolute;
-    top: 152%;
+    top: 138%;
     right:10%;
 }
 
